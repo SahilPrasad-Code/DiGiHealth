@@ -105,3 +105,26 @@ class text extends StatelessWidget {
     );
   }
 }
+
+
+
+class textBlack extends StatelessWidget {
+  
+  final String name;
+  final double size;
+  const textBlack({
+    Key? key, required this.name, required this.size,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Text(
+      name,
+      style: TextStyle(
+          fontSize: size,
+          fontStyle: FontStyle.italic,
+          color: Colors.black,
+          fontWeight: FontWeight.bold),
+    );
+  }
+}

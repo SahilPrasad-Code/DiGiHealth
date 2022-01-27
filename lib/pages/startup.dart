@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/home_page.dart';
-import 'package:flutter_application_1/pages/recognise.dart';
+import 'package:flutter_application_1/main_page.dart';
 import 'package:flutter_application_1/pages/startup2.dart';
 import 'package:flutter_application_1/pages/startup3.dart';
-import 'slider.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/pages/login_page.dart';
-import '../utils/widgets/slide_item.dart';
 
 class StartupPage extends StatefulWidget {
   const StartupPage({Key? key}) : super(key: key);
@@ -157,7 +154,7 @@ class _StartupPageState extends State<StartupPage> {
 
                     // ignore: avoid_print
                     onPressed: (){
-                      Navigator.push(context, MaterialPageRoute(builder: (context)=> HomePage()));
+                      Navigator.push(context, MaterialPageRoute(builder: (context)=> MainPage()));
                     },
                     child: const Text(
                       'Get Started',

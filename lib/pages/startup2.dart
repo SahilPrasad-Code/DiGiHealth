@@ -3,10 +3,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/recognise.dart';
 import 'package:flutter_application_1/pages/startup3.dart';
-import 'slider.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_application_1/pages/login_page.dart';
-import '../utils/widgets/slide_item.dart';
 
 class StartupPage2 extends StatefulWidget {
   const StartupPage2({Key? key}) : super(key: key);

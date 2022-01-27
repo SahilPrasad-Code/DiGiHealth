@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../home_page.dart';
+import '../main_page.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({Key? key}) : super(key: key);
@@ -110,7 +110,7 @@ class _LoginPageState extends State<LoginPage> {
                             Navigator.pushReplacement(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => const HomePage()));
+                                    builder: (context) => const MainPage()));
                           }
                         },
                         child: AnimatedContainer(
